@@ -1,10 +1,6 @@
-// Daily script generated on Thu Oct  1 03:15:03 UTC 2026
-// Randomly selected snippet #6
+// Daily script generated on Thu Oct  1 04:13:14 UTC 2026
+// Randomly selected snippet #13
 
-// Snippet 6: Async/await with timeout helper
-  const delay = ms => new Promise(r => setTimeout(r, ms));
-  (async () => {
-    console.log('Waiting...');
-    await delay(300);
-    console.log('Done waiting');
-  })();
+// Snippet 13: Recursive Fibonacci
+  function fib(n) { return n < 2 ? n : fib(n-1)+fib(n-2); }
+  console.log('fib(6)=', fib(6));
